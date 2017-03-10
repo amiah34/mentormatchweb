@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    color: black;
+    background: lightblue;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.row {
+    width: 100%;
+}
+
+.row:after,
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main {
+    padding: 1%;
+}
+
+
+/* main content div styles and paragraph styles. */
+
+p {
+    font-size: .8em;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/*Header Styles*/
+
+.header {
+    width: 100%;
+    background: #5B65A3;
+    text-align: center;
+}
+
+.header nav ul li {
+    display: inline;
+    list-style-type: none;
+    color: white;
+    border: 1px solid white;
+    padding: .2em;
+    font-size: 1em;
+    margin: .5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+nav img {
+    padding: 5px;
+}
+
+
+/* styles for index page*/
+
+.two {
+    width: 100%;
+    padding: 2%;
+    float: left;
+    text-align: center;
+}
+
+.two img {
+    height: 100px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* add to content div to make the feed smaller to have more room for other content. */
+
+.content {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.feed1 {
+    margin: 2% auto;
+    background: #E6E6E6;
+}
+
+.footer {
+    text-align: center;
+    background: #5B65A3;
+    color: white;
+    margin-top: 5%;
+    font-size: 1.2em;
+}
+
+.image img {
+    width: 40%;
+}
